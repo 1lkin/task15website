@@ -3,14 +3,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  margin-left: 100px;
+  margin-left: 5%;
   margin-top: 50px;
   font-size: 55px;
 }
 .top {
-  /* border: red solid 2px; */
   display: flex;
   justify-content: space-around;
+  margin-bottom: calc(320px - 15vw);
 }
 .text {
   width: 662px;
@@ -23,7 +23,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 130%;
+  line-height: 150%;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -37,8 +37,6 @@ h1 {
   justify-content: space-around;
   display: flex;
   margin-top: calc(300px - 20vw);
-  /* margin: 50px; */
-  /* border: royalblue 2px solid; */
   align-items: center;
 }
 .bottom img {
@@ -47,7 +45,6 @@ h1 {
   max-height: 203px;
 }
 .info {
-  /* border: black 2px solid; */
   display: flex;
   justify-content: space-around;
   right: 20px;
@@ -55,19 +52,19 @@ h1 {
 }
 .info div {
   font-size: 25px;
-font-weight: 700;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left; 
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left; 
 }
 .info p {
   font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 130%;
-letter-spacing: 0em;
-text-align: left;
-margin-top: -20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: -20px;
 }
 .lesson-duration {
   margin: 0 94px;
@@ -76,6 +73,7 @@ margin-top: -20px;
 @media screen and (max-width: 829px){
   h1 {
     font-size: 32px;
+    margin-left: 3%;
   }
   .text {
     width: 383.41px;
@@ -85,7 +83,6 @@ margin-top: -20px;
   }
   .text p {
     font-size: 14px;
-    line-height: 21px;
     }
   .top img {
     width: 182px;
@@ -97,13 +94,62 @@ margin-top: -20px;
     display: none;
   }  
   .info h3 {
-  font-size: 15px;
+    font-size: 15px;
   }
   .info p {
     font-size: 11px;
   }
 }
-/* 
+
 @media screen and (max-width: 375px){
+  h1 {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+  .text {
+    width: 308.47px;
+    height: 174.27px;
+    left: 36px;
+    top: 107.72px;
+    margin-bottom: 80px;
+  }
+  .text p {
+    font-size: 12px;
+  }
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top img {
+    width: 182px;
+    height: 170px;
+    left: 565.45px;
+    top: 134.19px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .info div {
+    margin-left: 12px;
+  }
+  .info h3 {
+    font-size: 12px;
+  }
   
-} */
+  .bottom img {
+    display: none;
+  }  
+  .bottom {
+    width: 95%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .info h3 {
+    font-size: 12px;
+  }
+  .info p {
+    font-size: 10px;
+  }
+} 
