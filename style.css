@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.top {
+  /* border: red solid 2px; */
+  display: flex;
+  /* margin: 50px; */
+  justify-content: space-around;
+}
+.text {
+  width: 662px;
+  height: 374px;
+  left: 0px;
+  top: 202px;
+}
+p {
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.top img {
+  width: 300px;
+  height: 300px;
+  right: 0px;
+  /* top: 226px; */
+  align-self: center;
+}
+.bottom {
+  width: 90%;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 94px;
+  /* margin: 50px; */
+  /* border: royalblue 2px solid; */
+  align-items: center;
+}
+.bottom img {
+  margin-left: 50px;
+  height: 203px;
+  width: 232px;
+}
+.info {
+  /* border: black 2px solid; */
+  display: flex;
+  justify-content: space-around;
+  right: 20px;
+}
+.info div {
+  font-size: 25px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left; 
+}
+.info p {
+  font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: -20px;
+}
+.lesson-duration {
+  margin: 0 94px;
+}
+/* .wrapper {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 0 10%;
+}
+.left {
+  display: inline-block;
+  background-color: #b99566;
+  width: 22%;
+  height: 40vh;
+  margin: 0 1px;
+}
+.right {
+  display: inline-block;
+  width: 75%;
+  height: calc(100vh - 300px);
+  margin: 0 1px;
+  background-color:#b99566;
+} */
+
+
+
+
+
+
+
+/* .top {
+  
+  background-color:red;
+  position:relative;
+}
+ 
+.text {
+  width:662px;
+  height:374px;
+  background-color:#999999;
+  position:absolute;
+  left: 124px;
+}
+img {
+  width:366px;
+  height:344px;
+  background-color:#666666;
+  position:absolute;
+  right:124px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 829px){
+  
+}
+@media screen and (max-width: 375px){
+  
+} */
